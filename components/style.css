@@ -1,0 +1,49 @@
+.auto-complete {
+	/* 중앙정렬 */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	/* 중앙정렬 */
+
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	width: 250px;
+	background-color: #363739;
+	border-radius: 8px;
+}
+
+.auto-complete > input {
+	outline: none;
+	margin: 0 20px;
+	border: none;
+	background-color: #363739;
+	color: white;
+}
+
+/* .auto-complete > svg {
+	fill: #86888a;
+} */
+
+.auto-complete > .select {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	width: 250px;
+	background-color: #313131;
+	border-radius: 8px;
+}
+
+.auto-complete > .select > .container {
+	margin: 10px;
+}
+
+.auto-complete > .select > .container > .option {
+	padding: 10px;
+	color: white;
+}
+.auto-complete > .select > .container > .option.selected {
+	border-radius: 8px;
+	background-color: #363739;
+}
